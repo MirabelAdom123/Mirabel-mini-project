@@ -130,29 +130,4 @@ document.addEventListener('DOMContentLoaded', initialiseGame)
 
 
 
-//Brainstorm notes:
-// 9 squares (array)
-// 10 buttons
-// 2 player game (Player X and player O)
-// Players must always alternate - player can only select one square at a time
-// 2 distinct colours to represent each player
-// Restrict players from clicking "filled" square (reminder: use .fill method for blank squares)
-// Players can win or draw: display message iif player wins OR display message if player draws
-// Winner tiles should be highlighted in corresponding colour
-// Players can only click emptyt/blank squares
-// All squares must be clickable - reminder: add event listener to activate each click
-// Add button to reset game/clear the board
-// Accessibility testing: styling choices (colours) - WAVE
 
-//During this demo, I willl showcase a game of Noughts and crosses to simlulate a real-life example
-// of the Noughts and Crosses Game.
-
-//2 player game represented by Player X and Player O
-//I've designed it so that players alternate to take turns
-//And I've allocated distinct colours to each player - player X is red and Player O is blue
-//Players can select any tile that is blank, and when a player wins or they draw:
-//a correspoding message will appear to eith indicate that PLayer X has won,
-// Player O has one or it's a draw
-//Also, depending on which player wins, the tiles should be highlighted in their corresponding colour
-//media query
-//Accessibility testing using Wave. 
